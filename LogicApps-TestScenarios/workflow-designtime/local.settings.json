@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsSecretStorageType": "Files",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "ProjectDirectoryPath": "REPLACE_WITH_REPOSITORY_PATH\\LogicApps-TestScenarios"
+  }
+}
