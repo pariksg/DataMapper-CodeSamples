@@ -1,0 +1,14 @@
+<ns0:Student xmlns:ns0="http://StudentEnrollment.Student">
+  <FirstName>First</FirstName>
+  <MiddleInitial></MiddleInitial>
+  <LastName>Last</LastName>
+  <DateOfBirth>1999-05-31</DateOfBirth>
+  <Address>
+    <StreetAddress>Street Address</StreetAddress>
+    <City>City</City>
+    <Zip>11111</Zip>
+    <State>WA</State>
+    <ContactType>Cell</ContactType>
+    <Contact>111 111 1111</Contact>
+  </Address>
+</ns0:Student>

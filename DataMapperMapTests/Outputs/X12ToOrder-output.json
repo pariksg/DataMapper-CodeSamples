@@ -1,0 +1,42 @@
+﻿{
+  "OrderFile": {
+    "Order": {
+      "Header": {
+        "PODate": 20210727.0,
+        "PONumber": 3859199838.0,
+        "CustomerID": "IBM",
+        "CustomerContactName": "ANDREW CARLSON",
+        "CustomerContactPhone": "(708) 555-2930"
+      },
+      "LineItems": [
+        {
+          "PONumber": 3859199838.0,
+          "ItemOrdered": "KOW-20392-10",
+          "Quantity": 93,
+          "UOM": "BX",
+          "Price": 145.39,
+          "ExtendedPrice": 13521.269999999999,
+          "Description": "Uninterruptible Power System"
+        },
+        {
+          "PONumber": 3859199838.0,
+          "ItemOrdered": "1093-4927-001",
+          "Quantity": 25,
+          "UOM": "EA",
+          "Price": 35.68,
+          "ExtendedPrice": 892,
+          "Description": "High Volume Printer Stand"
+        },
+        {
+          "PONumber": 3859199838.0,
+          "ItemOrdered": "ABX-2001",
+          "Quantity": 4,
+          "UOM": "PC",
+          "Price": 2002.91,
+          "ExtendedPrice": 8011.64,
+          "Description": "Electronics Cabinet Package (56\" High)"
+        }
+      ]
+    }
+  }
+}

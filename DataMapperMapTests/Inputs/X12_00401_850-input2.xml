@@ -1,0 +1,92 @@
+﻿<ns0:X12_00401_850 xmlns:ns0="http://schemas.microsoft.com/BizTalk/EDI/X12/2006">
+	<ST>
+		<ST01>850</ST01>
+		<ST02>0001</ST02>
+	</ST>
+	<ns0:BEG>
+		<BEG01>00</BEG01>
+		<BEG02>NE</BEG02>
+		<BEG03>3859199838</BEG03>
+		<BEG05>20210727</BEG05>
+		<BEG08>IBM</BEG08>
+	</ns0:BEG>
+	<ns0:PER>
+		<PER01>AA</PER01>
+		<PER02>ANDREW CARLSON</PER02>
+		<PER03>TE</PER03>
+		<PER04>(708) 555-2930</PER04>
+	</ns0:PER>
+	<ns0:DTM>
+		<DTM01>002</DTM01>
+		<DTM02>20210523</DTM02>
+	</ns0:DTM>
+	<ns0:PO1Loop1>
+		<ns0:PO1>
+			<PO101>1</PO101>
+			<PO102>93</PO102>
+			<PO103>BX</PO103>
+			<PO104>145.39</PO104>
+			<PO106>CB</PO106>
+			<PO107>KOW-20392-10</PO107>
+		</ns0:PO1>
+		<ns0:PIDLoop1>
+			<ns0:PID_2>
+				<PID01>F</PID01>
+				<PID05>Uninterruptible Power System</PID05>
+			</ns0:PID_2>
+		</ns0:PIDLoop1>
+		<ns0:PER_3>
+			<PER01>AA</PER01>
+			<PER02>Camilla Anderson</PER02>
+			<PER03>TE</PER03>
+			<PER04>(708) 555-2011</PER04>
+		</ns0:PER_3>
+	</ns0:PO1Loop1>
+	<ns0:PO1Loop1>
+		<ns0:PO1>
+			<PO101>2</PO101>
+			<PO102>25</PO102>
+			<PO103>EA</PO103>
+			<PO104>35.68</PO104>
+			<PO106>CB</PO106>
+			<PO107>1093-4927-001</PO107>
+		</ns0:PO1>
+		<ns0:PIDLoop1>
+			<ns0:PID_2>
+				<PID01>F</PID01>
+				<PID05>High Volume Printer Stand</PID05>
+			</ns0:PID_2>
+		</ns0:PIDLoop1>
+		<ns0:PER_3>
+			<PER01>AA</PER01>
+			<PER02>Miranda Cappelan</PER02>
+			<PER03>TE</PER03>
+			<PER04>(708) 555-1111</PER04>
+		</ns0:PER_3>
+	</ns0:PO1Loop1>
+	<ns0:PO1Loop1>
+		<ns0:PO1>
+			<PO101>3</PO101>
+			<PO102>4</PO102>
+			<PO103>PC</PO103>
+			<PO104>2002.91</PO104>
+			<PO106>CB</PO106>
+			<PO107>ABX-2001</PO107>
+		</ns0:PO1>
+		<ns0:PIDLoop1>
+			<ns0:PID_2>
+				<PID01>F</PID01>
+				<PID05>Electronics Cabinet Package (56" High)</PID05>
+			</ns0:PID_2>
+		</ns0:PIDLoop1>
+	</ns0:PO1Loop1>
+	<ns0:CTTLoop1>
+		<ns0:CTT>
+			<CTT01>3</CTT01>
+		</ns0:CTT>
+	</ns0:CTTLoop1>
+	<SE>
+		<SE01>14</SE01>
+		<SE02>0001</SE02>
+	</SE>
+</ns0:X12_00401_850>

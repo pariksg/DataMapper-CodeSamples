@@ -1,0 +1,36 @@
+$version: 1
+$input: XML
+$output: JSON
+$sourceSchema: X12_00401_850.xsd
+$targetSchema: OrderFile.json
+$sourceNamespaces:
+  btsedi: http://schemas.microsoft.com/BizTalk/2005/EdiSchemaEditorExtension
+  b: http://schemas.microsoft.com/BizTalk/2003
+  ns0: http://schemas.microsoft.com/BizTalk/EDI/X12/2006
+  xs: http://www.w3.org/2001/XMLSchema
+root:
+  OrderFile:
+    Order:
+      Header:
+        PODate: /ns0:X12_00401_850/ns0:BEG/BEG05
+        PONumber: /ns0:X12_00401_850/ns0:BEG/BEG03
+        $if(exists(/ns0:X12_00401_850/ns0:BEG/BEG08)):
+          CustomerID: /ns0:X12_00401_850/ns0:BEG/BEG08
+        $if(is-equal(/ns0:X12_00401_850/ns0:PER/PER01, 'AA')):
+          CustomerContactName: /ns0:X12_00401_850/ns0:PER/PER02
+        $if(is-equal(/ns0:X12_00401_850/ns0:PER/PER03, 'TE')):
+          CustomerContactPhone: /ns0:X12_00401_850/ns0:PER/PER04
+      LineItems:
+        $for(/ns0:X12_00401_850/ns0:PO1Loop1):
+          PONumber: /ns0:X12_00401_850/ns0:BEG/BEG03
+          $if(exists(ns0:PO1/PO107)):
+            ItemOrdered: ns0:PO1/PO107
+          $if(exists(ns0:PO1/PO102)):
+            Quantity: ns0:PO1/PO102
+          $if(exists(ns0:PO1/PO103)):
+            UOM: ns0:PO1/PO103
+          $if(exists(ns0:PO1/PO104)):
+            Price: ns0:PO1/PO104
+          ExtendedPrice: multiply(ns0:PO1/PO102, ns0:PO1/PO104)
+          $if(exists(ns0:PIDLoop1/ns0:PID_2/PID05)):
+            Description: ns0:PIDLoop1/ns0:PID_2/PID05

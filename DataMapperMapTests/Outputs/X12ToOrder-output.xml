@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:OrderFile xmlns:ns0="http://Inbound_EDI.OrderFile"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Order>
+      <Header>
+         <PODate>20210727</PODate>
+         <PONumber>3859199838</PONumber>
+         <CustomerID>IBM</CustomerID>
+         <CustomerContactName>ANDREW CARLSON</CustomerContactName>
+         <CustomerContactPhone>(708) 555-2930</CustomerContactPhone>
+      </Header>
+      <LineItems>
+         <PONumber>3859199838</PONumber>
+         <ItemOrdered>KOW-20392-10</ItemOrdered>
+         <Quantity>93</Quantity>
+         <UOM>BX</UOM>
+         <Price>145.39</Price>
+         <ExtendedPrice>13521.269999999999</ExtendedPrice>
+         <Description>Uninterruptible Power System</Description>
+      </LineItems>
+      <LineItems>
+         <PONumber>3859199838</PONumber>
+         <ItemOrdered>1093-4927-001</ItemOrdered>
+         <Quantity>25</Quantity>
+         <UOM>EA</UOM>
+         <Price>35.68</Price>
+         <ExtendedPrice>892</ExtendedPrice>
+         <Description>High Volume Printer Stand</Description>
+      </LineItems>
+      <LineItems>
+         <PONumber>3859199838</PONumber>
+         <ItemOrdered>ABX-2001</ItemOrdered>
+         <Quantity>4</Quantity>
+         <UOM>PC</UOM>
+         <Price>2002.91</Price>
+         <ExtendedPrice>8011.64</ExtendedPrice>
+         <Description>Electronics Cabinet Package (56" High)</Description>
+      </LineItems>
+   </Order>
+</ns0:OrderFile>

@@ -1,0 +1,8 @@
+﻿<ContactInfo xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:st="http://StudentEnrollment.Student">
+  <xsl:attribute name="ContactType">
+    <xsl:value-of select="/st:Student/Address/ContactType" />
+  </xsl:attribute>
+  <xsl:attribute name="Contact">
+    <xsl:value-of select="/st:Student/Address/Contact" />
+  </xsl:attribute>
+</ContactInfo>

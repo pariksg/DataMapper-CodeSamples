@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:StudentResponse xmlns:ns0="http://StudentEnrollment.StudentResponse"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Name>LAST, First</Name>
+   <DateOfBirth>1999-05-31</DateOfBirth>
+   <Age>24.5</Age>
+   <MailingAddress>Street Address City 11111 WA</MailingAddress>
+   <Phone>
+      <ContactInfo ContactType="Cell" Contact="111 111 1111"/>
+   </Phone>
+</ns0:StudentResponse>

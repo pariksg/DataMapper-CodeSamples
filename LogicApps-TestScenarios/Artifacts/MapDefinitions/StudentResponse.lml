@@ -1,0 +1,19 @@
+$version: 1
+$input: XML
+$output: XML
+$sourceSchema: Student.xsd
+$targetSchema: StudentResponse.xsd
+$sourceNamespaces:
+  ns0: http://StudentEnrollment.Student
+  b: http://schemas.microsoft.com/BizTalk/2003
+  xs: http://www.w3.org/2001/XMLSchema
+$targetNamespaces:
+  ns0: http://StudentEnrollment.StudentResponse
+  b: http://schemas.microsoft.com/BizTalk/2003
+  xs: http://www.w3.org/2001/XMLSchema
+ns0:StudentResponse:
+  Name: xpath("normalize-space(concat(upper-case(/Q{http://StudentEnrollment.Student}Student/LastName), ', ', /Q{http://StudentEnrollment.Student}Student/FirstName, ' ', /Q{http://StudentEnrollment.Student}Student/MiddleInitial))")
+  DateOfBirth: /ns0:Student/DateOfBirth
+  Age: age(/ns0:Student/DateOfBirth)
+  MailingAddress: xpath("concat(/Q{http://StudentEnrollment.Student}Student/Address/StreetAddress, ' ', /Q{http://StudentEnrollment.Student}Student/Address/City, ' ', /Q{http://StudentEnrollment.Student}Student/Address/Zip, ' ', upper-case(/Q{http://StudentEnrollment.Student}Student/Address/State))")
+  Phone: inline-xslt("InlineXsltContact.xml")

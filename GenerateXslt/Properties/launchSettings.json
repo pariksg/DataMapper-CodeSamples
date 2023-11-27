@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GenerateXslt": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\L\\DataMapper-CodeSamples\\LogicApps-TestScenarios \"C:\\L\\DataMapper-CodeSamples\\LogicApps-TestScenarios\\Artifacts\\MapDefinitions\\StudentResponse.lml\" \"C:\\L\\DataMapper-CodeSamples\\LogicApps-TestScenarios\\Artifacts\\Maps\\StudentResponse.xslt\""
+    }
+  }
+}

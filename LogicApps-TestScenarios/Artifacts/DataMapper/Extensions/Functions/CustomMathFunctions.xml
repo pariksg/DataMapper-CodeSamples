@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<customfunctions>
+    <function name="integer-min" as="xs:integer" description="Returns minimum of two numbers.">
+      <param name="number1" as="xs:integer" />
+      <param name="number2" as="xs:integer" />
+      <choose>
+        <when test="$number1 le $number2">
+          <value-of select="$number1"></value-of>
+        </when>
+        <otherwise>
+          <value-of select="$number2"></value-of>
+        </otherwise>
+      </choose>
+    </function>
+</customfunctions>

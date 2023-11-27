@@ -1,0 +1,6 @@
+﻿<map key="ContactInfo" xmlns:p="http://SourceInstanceNamespace" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:variable name="var1" select="/p:SourceInstance/Address/ContactType" />
+  <string key="ContactType">{$var1}</string>
+  <xsl:variable name="var2" select="/p:SourceInstance/Address/Contact" />
+  <string key="Contact">{$var2}</string>
+</map>

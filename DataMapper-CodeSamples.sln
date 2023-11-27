@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapperAPIClient", "MapperAPIClient\MapperAPIClient.csproj", "{8C87B726-0BDD-40A6-8FC8-E700211F0EAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateXslt", "GenerateXslt\GenerateXslt.csproj", "{BC857CF2-53C2-4666-AD3C-261A509B8025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapTester", "MapTester\MapTester.csproj", "{9B6AE8F8-0D6A-4330-8F22-E8A8EB2854DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMapperMapTests", "DataMapperMapTests\DataMapperMapTests.csproj", "{29E2609A-A291-48CF-B231-F148E61C65C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C87B726-0BDD-40A6-8FC8-E700211F0EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C87B726-0BDD-40A6-8FC8-E700211F0EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C87B726-0BDD-40A6-8FC8-E700211F0EAF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C87B726-0BDD-40A6-8FC8-E700211F0EAF}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C87B726-0BDD-40A6-8FC8-E700211F0EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C87B726-0BDD-40A6-8FC8-E700211F0EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C87B726-0BDD-40A6-8FC8-E700211F0EAF}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C87B726-0BDD-40A6-8FC8-E700211F0EAF}.Release|x64.Build.0 = Release|Any CPU
+		{BC857CF2-53C2-4666-AD3C-261A509B8025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC857CF2-53C2-4666-AD3C-261A509B8025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC857CF2-53C2-4666-AD3C-261A509B8025}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC857CF2-53C2-4666-AD3C-261A509B8025}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC857CF2-53C2-4666-AD3C-261A509B8025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC857CF2-53C2-4666-AD3C-261A509B8025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC857CF2-53C2-4666-AD3C-261A509B8025}.Release|x64.ActiveCfg = Release|Any CPU
+		{BC857CF2-53C2-4666-AD3C-261A509B8025}.Release|x64.Build.0 = Release|Any CPU
+		{9B6AE8F8-0D6A-4330-8F22-E8A8EB2854DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6AE8F8-0D6A-4330-8F22-E8A8EB2854DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6AE8F8-0D6A-4330-8F22-E8A8EB2854DB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9B6AE8F8-0D6A-4330-8F22-E8A8EB2854DB}.Debug|x64.Build.0 = Debug|Any CPU
+		{9B6AE8F8-0D6A-4330-8F22-E8A8EB2854DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6AE8F8-0D6A-4330-8F22-E8A8EB2854DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6AE8F8-0D6A-4330-8F22-E8A8EB2854DB}.Release|x64.ActiveCfg = Release|Any CPU
+		{9B6AE8F8-0D6A-4330-8F22-E8A8EB2854DB}.Release|x64.Build.0 = Release|Any CPU
+		{29E2609A-A291-48CF-B231-F148E61C65C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E2609A-A291-48CF-B231-F148E61C65C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E2609A-A291-48CF-B231-F148E61C65C3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{29E2609A-A291-48CF-B231-F148E61C65C3}.Debug|x64.Build.0 = Debug|Any CPU
+		{29E2609A-A291-48CF-B231-F148E61C65C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E2609A-A291-48CF-B231-F148E61C65C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E2609A-A291-48CF-B231-F148E61C65C3}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18B72BD9-8EBE-430D-9B77-B19894265492}
+	EndGlobalSection
+EndGlobal

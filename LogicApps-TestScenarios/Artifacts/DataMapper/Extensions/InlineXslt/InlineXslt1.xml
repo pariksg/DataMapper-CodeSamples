@@ -1,0 +1,10 @@
+﻿<ContactInfo xmlns:p="http://SourceInstanceNamespace" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:var="http://SourceInstanceVarNamespace">
+  <xsl:variable name="var:var1" select="/p:SourceInstance/Address/ContactType" />
+  <xsl:attribute name="ContactType">
+    <xsl:value-of select="$var:var1" />
+  </xsl:attribute>
+  <xsl:variable name="var:var2" select="/p:SourceInstance/Address/Contact" />
+  <xsl:attribute name="Contact">
+    <xsl:value-of select="$var:var2" />
+  </xsl:attribute>
+</ContactInfo>
