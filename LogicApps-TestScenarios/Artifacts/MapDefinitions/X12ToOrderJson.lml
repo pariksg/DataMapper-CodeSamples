@@ -17,7 +17,7 @@ root:
         $if(exists(/ns0:X12_00401_850/ns0:BEG/BEG08)):
           CustomerID: /ns0:X12_00401_850/ns0:BEG/BEG08
         $if(is-equal(/ns0:X12_00401_850/ns0:PER/PER01, 'AA')):
-          CustomerContactName: /ns0:X12_00401_850/ns0:PER/PER02
+          CustomerContactName: upper-case(/ns0:X12_00401_850/ns0:PER/PER02)
         $if(is-equal(/ns0:X12_00401_850/ns0:PER/PER03, 'TE')):
           CustomerContactPhone: /ns0:X12_00401_850/ns0:PER/PER04
       LineItems:
