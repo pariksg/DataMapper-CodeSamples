@@ -11,10 +11,10 @@
                             "type": "object",
                             "properties": {
                                 "PODate": {
-                                    "type": "integer"
+                                    "type": "string"
                                 },
                                 "PONumber": {
-                                    "type": "integer"
+                                    "type": "string"
                                 },
                                 "CustomerID": {
                                     "type": "string"
@@ -34,7 +34,7 @@
                                 "type": "object",
                                 "properties": {
                                     "PONumber": {
-                                        "type": "integer"
+                                        "type": "string"
                                     },
                                     "ItemOrdered": {
                                         "type": "string"

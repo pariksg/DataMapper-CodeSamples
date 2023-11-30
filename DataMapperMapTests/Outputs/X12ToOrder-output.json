@@ -2,15 +2,15 @@
   "OrderFile": {
     "Order": {
       "Header": {
-        "PODate": 20210727.0,
-        "PONumber": 3859199838.0,
+        "PODate": "20210727",
+        "PONumber": "3859199838",
         "CustomerID": "IBM",
         "CustomerContactName": "ANDREW CARLSON",
         "CustomerContactPhone": "(708) 555-2930"
       },
       "LineItems": [
         {
-          "PONumber": 3859199838.0,
+          "PONumber": "3859199838",
           "ItemOrdered": "KOW-20392-10",
           "Quantity": 93,
           "UOM": "BX",
@@ -19,7 +19,7 @@
           "Description": "Uninterruptible Power System"
         },
         {
-          "PONumber": 3859199838.0,
+          "PONumber": "3859199838",
           "ItemOrdered": "1093-4927-001",
           "Quantity": 25,
           "UOM": "EA",
@@ -28,7 +28,7 @@
           "Description": "High Volume Printer Stand"
         },
         {
-          "PONumber": 3859199838.0,
+          "PONumber": "3859199838",
           "ItemOrdered": "ABX-2001",
           "Quantity": 4,
           "UOM": "PC",

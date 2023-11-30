@@ -11,8 +11,8 @@
       <map key="OrderFile">
         <map key="Order">
           <map key="Header">
-            <number key="PODate">{/ns0:X12_00401_850/ns0:BEG/BEG05}</number>
-            <number key="PONumber">{/ns0:X12_00401_850/ns0:BEG/BEG03}</number>
+            <string key="PODate">{/ns0:X12_00401_850/ns0:BEG/BEG05}</string>
+            <string key="PONumber">{/ns0:X12_00401_850/ns0:BEG/BEG03}</string>
             <xsl:choose>
               <xsl:when test="exists(/ns0:X12_00401_850/ns0:BEG/BEG08)">
                 <string key="CustomerID">{/ns0:X12_00401_850/ns0:BEG/BEG08}</string>
@@ -32,7 +32,7 @@
           <array key="LineItems">
             <xsl:for-each select="/ns0:X12_00401_850/ns0:PO1Loop1">
               <map>
-                <number key="PONumber">{/ns0:X12_00401_850/ns0:BEG/BEG03}</number>
+                <string key="PONumber">{/ns0:X12_00401_850/ns0:BEG/BEG03}</string>
                 <xsl:choose>
                   <xsl:when test="exists(ns0:PO1/PO107)">
                     <string key="ItemOrdered">{ns0:PO1/PO107}</string>
